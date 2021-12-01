@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        table{
+            font-family: Arial, Helvetica, sans-serif;
+            border: solid 2px blue;
+            border-collapse: collapse;
+            border-radius: 10px;
+            border-style: solid;
+            border-color: #96D4D4;
+            width: 100%;
+        }
+        td,th{
+            border: 1px solid #dddddd;
+            padding: 8px;
+            text-align: left;
+            border-collapse: collapse;
+            border-radius: 10px;
+            text-align: center;
+        }
+        /* tr:nth-child(odd){
+            background-color: #dddddd;
+        } */
+
+        /* th:nth-child(even), td:nth-child(even) {
+            background-color: #D6EEEE; */
+/* 
+        }  */ 
+
+        tr:nth-child(even) {
+
+            background-color: rgba(150, 212, 212, 0.4);
+        }
+
+        th:nth-child(even), td:nth-child(even) {
+            background-color: rgba(150, 212, 212, 0.4);
+        }
+
+        tr:hover{
+            background-color: rgba(255, 21, 21, 0.4);
+        }
+
+        ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                background-color: #333333;
+                overflow: hidden;
+                display: flex;
+                width: auto;
+                
+            }
+           li,a{
+               display: block;
+               color: white;
+               text-align: center;
+               padding: 16px;
+               text-decoration: none;
+           }
+           li a:hover{
+            background-color: #111111;
+
+           }
+
+    </style>
+    </head>
+<body>
+
+    <h1>List in Html 5</h1>
+    <p>presenting the list property</p>
+    <ul>
+     <li><a href="Css/screenshot.jpg" target="_blank">Home</a></li>
+     <li><a href="#about">About</a></li>
+     <li><a href="#contact">Contact</a></li>
+     <li><a href="#information">Information</a></li>
+    </ul>
+
+    <table>
+        <colgroup>
+            <col span="2" style="background-color: #D6EEEE">
+        </colgroup>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Age</th>
+            <th>Address</th>
+        </tr>
+        <tr>
+            <td>Mahdi</td>
+            <td>mahdi@gmail.com</td>
+            <td>25</td>
+            <td>kabul</td>
+        </tr>
+        <tr>
+            <td>Mustafa</td>
+            <td>mustafa@gmail.com</td>
+            <td>21</td>
+            <td>kabul</td>
+        </tr>
+        <tr>
+            <td>Yasir</td>
+            <td>yasir@gmail.com</td>
+            <td>25</td>
+            <td>kabul</td>
+        </tr>
+        <tr>
+            <td>Yasir</td>
+            <td>yasir@gmail.com</td>
+            <td>25</td>
+            <td>kabul</td>
+        </tr>
+        <tr>
+            <td>Yasir</td>
+            <td>yasir@gmail.com</td>
+            <td>25</td>
+            <td>kabul</td>
+        </tr>
+        <tr>
+            <td>Yasir</td>
+            <td>yasir@gmail.com</td>
+            <td>25</td>
+            <td>kabul</td>
+        </tr>
+    </table>
+
+    <h1 style="background-color: tomato; width: 35%;">The Html's Javascript</h1>
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+    Click me here to display the date</button>
+    <p id="demo"></p>
+    
+    <p id="me">This is a demonstration</p>
+    <button type="button" onclick="myfunction()">Click Me</button>
+    <script>
+        function myfunction() {
+            document.getElementById('me').style.fontSize = "25px";
+            document.getElementById('me').style.color="red";
+            document.getElementById('me').style.backgroundColor="yellow";
+            document.getElementById('me').style.border="solid 1px green";
+            document.getElementById('me').style.width="400px";
+        }
+    </script>
+</body>    
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    
+    .left {
+        background-color: violet;
+        padding: 20px;
+        float: left;
+        width: 20%;
+    }
+    
+    .main {
+        background-color: blueviolet;
+        padding: 20px;
+        width: 60%;
+        float: left;
+    }
+    
+    .right {
+        background-color: chocolate;
+        padding: 20px;
+        width: 20%;
+        float: left;
+    }
+    
+    @media screen and (max-width: 800px) {
+        .left,
+        .main,
+        .right {
+            width: 100%;
+        }
+    }
+</style>
+
+<body>
+
+    <body>
+
+        <h2>Media Queries</h2>
+        <p>Resize the browser window.</p>
+
+        <p>Make sure you reach the breakpoint at 800px when resizing this frame.</p>
+
+        <div class="left">
+            <p>Left Menu</p>
+        </div>
+
+        <div class="main">
+            <p>Main Content</p>
+        </div>
+
+        <div class="right">
+            <p>Right Content</p>
+        </div>
+
+    </body>
+</body>
+
+</html>

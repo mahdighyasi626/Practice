@@ -1,0 +1,42 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+header{
+    background-color: rgba(27, 77, 216, 0.5);
+    width: 100%;
+    padding: 20px;
+    height: auto;
+    text-align: center;
+    margin: 0px;
+
+    }
+
+    .w3-container{
+        padding: 10px;
+    }
+
+    .w3-table,th,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 100%;
+        height: 50px;
+    
+    }
+    .w3-teal{
+        background-color: rgba(94, 26, 26, 0.5);
+    }
+    tr:nth-child(even){
+        background-color: rgba(128, 153, 221, 0.5);
+    }
+
+    tr:hover{
+        background-color: salmon;
+    }
+
+    .w3-row-padding{
+        display: flex;
+    }
