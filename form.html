@@ -89,13 +89,17 @@
 
         </fieldset>
     </form>
-    <form action="">
+    <form action="" method="GET">
         <label for="first">First</label>
         <input type="radio" id="first" name="radio"><br>
         <input type="submit">
-        <input type="submit" formaction="/action.php" value="Submit as admin">
-
-    </form>
+        <input type="submit" formaction="/action.php" value="Submit as admin"><br><br>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit as get">
+        <input type="submit" formmethod="POST" value="submit as post" </form>
 
 
 </body>
