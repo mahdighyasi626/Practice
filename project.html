@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=0.1">
+    <style>
+        body {
+            box-sizing: border-box;
+            margin: 0%;
+        }
+        
+        .first {
+            background-color: lightgray;
+            border: solid 15px green;
+            padding: 15px;
+            width: 500px;
+            margin: 50px;
+            height: 280px;
+        }
+        
+        header {
+            background-color: lightgray;
+            height: 50px;
+            width: 100%;
+        }
+        
+        header>nav {
+            margin: 0;
+            padding: 15px;
+        }
+        
+        header>nav>a {
+            text-decoration: none;
+            margin-right: 30px;
+        }
+        
+        header>nav>a.a1:hover {
+            background-color: rgba(199, 122, 22, 0.8);
+        }
+        
+        .sect {
+            display: flex;
+        }
+        
+        @media screen and (max-width: 486px) {
+            .sect {
+                flex-direction: column !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="" class="a1">Home</a>
+            <a href="">Contact</a>
+            <a href="">About</a>
+            <a href="">Information</a>
+        </nav>
+    </header>
+    <section class="sect">
+
+
+        <div class="first">This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+        <div class="first">This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+        <div class="first">This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+    </section>
+
+</body>
+
+</html>
